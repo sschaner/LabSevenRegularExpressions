@@ -23,7 +23,7 @@ namespace Lab7RegularExpressions
          */
         public static void ValidateFirstName()
         {
-            string namePattern = "^[A-Z]{1}[a-zA-Z]{1,29}$";
+            string namePattern = "^[A-Z][a-zA-Z]{1,29}$";
 
             Regex regex = new Regex(namePattern);
 
